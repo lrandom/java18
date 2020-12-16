@@ -36,3 +36,17 @@ switch (weather) {
     default:
         console.log("Default");
 }
+
+let x = 0;
+/*loop construct*/
+index = 0
+while(index<10){
+    console.log(index);
+    index++;
+}
+
+index=0;
+do{
+    console.log(index);
+    index++;
+}while(index<10);
